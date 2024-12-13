@@ -5,17 +5,17 @@
 }
 
 #navbar_container {
-    max-inline-size: 1231px;
-    inline-size: 100%;
+    max-width: 1231px;
+    width: 100%;
     margin-inline-start: auto;
     background-color: #F7F4FF;
     padding: 12px 24px;
-    margin-block-end: 142px;
+    margin-bottom: 142px;
 }
 
 #navbar {
-    max-inline-size: 1183px;
-    inline-size: 100%;
+    max-width: 1183px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -26,8 +26,8 @@
 #linkbox_container {
     display: inline-block;
     vertical-align: middle;
-    margin-inline-start: 271px;
-    margin-inline-end: 271px;
+    margin-left: 271px;
+    margin-right: 271px;
 }
 
 .linkbox {
@@ -41,8 +41,8 @@
 }
 
 #link_offer {
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #contact_decoration {
@@ -51,7 +51,7 @@
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
-    padding-inline-end: 20px;
+    padding-right: 20px;
 }
 
 #navbar_button {
@@ -72,30 +72,30 @@
 /* MAAAAINNN */
 
 #main_one_container {
-    max-inline-size: 1299px;
-    inline-size: 100%;
-    max-block-size: 458px;
-    block-size: 100%;
+    max-width: 1299px;
+    width: 100%;
+    max-height: 458px;
+    height: 100%;
     margin: 0 auto;
     background-color: #fff;
-    margin-block-end: 83px;
+    margin-bottom: 83px;
 }
 
 #signhere_svg_container {
-    max-inline-size: 610px;
-    inline-size: 100%;
+    max-width: 610px;
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
-    margin-inline-end: 30px;
+    margin-right: 30px;
 }
 
 #whatweoffer_container {
     background-color: #fff;
     display: inline-block;
     vertical-align: middle;
-    inline-size: 644px;
-    block-size: 325px;
-    margin-block-start: 20px;
+    width: 644px;
+    height: 325px;
+    margin-top: 20px;
 }
 
 #whatweoffer_heading_container {}
@@ -111,8 +111,8 @@
 }
 
 #whatweoffer_content_container {
-    padding-block-end: 16px;
-    padding-block-start: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 #whatweoffer_content {
@@ -126,7 +126,7 @@
 
 #whatweoffer_list_container {
     list-style-position: inside;
-    padding-inline-start: 10px;
+    padding-left: 10px;
 }
 
 .whatweoffer_list_content {
@@ -136,30 +136,30 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    padding-block-end: 12px;
+    padding-bottom: 12px;
 }
 
 /* section two of the main content */
 
 #main_two_container {
-    max-inline-size: 1221px;
-    inline-size: 100%;
-    max-block-size: 706px;
-    block-size: 100%;
+    max-width: 1221px;
+    width: 100%;
+    max-height: 706px;
+    height: 100%;
     margin: 0 auto;
 }
 
 #main_two_top_container {
-    max-inline-size: 905px;
-    inline-size: 100%;
-    max-block-size: 140px;
-    block-size: 100%;
+    max-width: 905px;
+    width: 100%;
+    max-height: 140px;
+    height: 100%;
     margin: 0 auto;
-    margin-block-end: 28px;
+    margin-bottom: 28px;
 }
 
 #main_two_heading_container {
-    margin-block-end: 18px;
+    margin-bottom: 18px;
 }
 
 #main_two_heading {
@@ -172,9 +172,7 @@
     line-height: 68px;
 }
 
-#main_two_content_container {
-    
-}
+#main_two_content_container {}
 
 #main_two_content {
     color: #535862;
@@ -190,9 +188,9 @@
 /* bottom part of the second section */
 
 #main_bottom_container {
-    max-inline-size: 1221px;
-    inline-size: 100%;
-    block-size: 538px;
+    max-width: 1221px;
+    width: 100%;
+    height: 538px;
     padding: 32px;
     border-radius: 16px;
     background-color: #F7F4FF;
@@ -201,39 +199,91 @@
 #contact_info_container {
     display: inline-block;
     vertical-align: middle;
-    background-color: blue;
-    max-inline-size: 403px;
-    inline-size: 100%;
-    block-size: 474px;
-    margin-inline-end: 24px;
+    max-width: 403px;
+    width: 100%;
+    height: 474px;
+    margin-right: 24px;
     padding: 20px 20px 235px 20px;
 
 }
 
 #contact_info {
-    background-color: #8E26C0;
-    max-inline-size: 363px;
-    inline-size: 100%;
-    block-size: 219px;
+    max-width: 363px;
+    width: 100%;
+    height: 219px;
 }
 
-#address {
+#address_container {
     background-color: yellow;
-    margin-block-end: 25px;
+    margin-bottom: 25px;
+    max-width: 363px;
+    width: 100%;
+    max-height: 57px;
+    height: 100%;
 }
 
-#email {
+#email_container {
     background-color: brown;
-    margin: ;
+    margin-bottom: 25px;
+    max-width: 363px;
+    width: 100%;
+    height: 56px;
 }
 
-#phone {
+#phone_container {
     background-color: lime;
+    max-width: 363px;
+    width: 100%;
+    height: 56px;
 }
-    
 
+#address_logo_container {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 56px;
+    width: 100%;
+    height: 56px;
+    margin-right: 16px;
+    padding: 10px;
+}
 
+#address_logo {
+    border-radius: 50px;
+    background-color: #F7F4FF;
+    border: none;
+}
 
+#address_heading_container {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 291px;
+    width: 100%;
+    margin-bottom: 6px;
+}
 
+#address_content_container {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 291px;
+    width: 100%;
+}
 
+#address_heading {
+    line-height: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000;
+    font-family: Phetsarath;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
 
+#address_content {
+    line-height: 22px;
+    color: #6D5F8B;
+    font-family: Prata;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
