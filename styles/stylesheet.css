@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar_container {
+    max-inline-size: 1231px;
+    inline-size: 100%;
+    margin-inline-start: auto;
+    background-color: #F7F4FF;
+    padding: 12px 24px;
+    margin-block-end: 142px;
+}
+
+#navbar {
+    max-inline-size: 1183px;
+    inline-size: 100%;
+    margin: 0 auto;
+}
+
+#footer_logo {
+    vertical-align: middle;
+}
+
+#linkbox_container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-inline-start: 271px;
+    margin-inline-end: 271px;
+}
+
+.linkbox {
+    color: #323;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#link_offer {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+#contact_decoration {
+    color: #8E26C0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    padding-inline-end: 20px;
+}
+
+#navbar_button {
+    color: #8E26C0;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    background-color: #fff;
+    vertical-align: middle;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* MAAAAINNN */
+
+#main_one_container {
+    max-inline-size: 1299px;
+    inline-size: 100%;
+    max-block-size: 458px;
+    block-size: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-block-end: 83px;
+}
+
+#signhere_svg_container {
+    max-inline-size: 610px;
+    inline-size: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-inline-end: 30px;
+}
+
+#whatweoffer_container {
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    inline-size: 644px;
+    block-size: 325px;
+    margin-block-start: 20px;
+}
+
+#whatweoffer_heading_container {}
+
+#whatweoffer_heading {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#whatweoffer_content_container {
+    padding-block-end: 16px;
+    padding-block-start: 16px;
+}
+
+#whatweoffer_content {
+    color: #535862;
+    font-family: Prata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+#whatweoffer_list_container {
+    list-style-position: inside;
+    padding-inline-start: 10px;
+}
+
+.whatweoffer_list_content {
+    color: #000;
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-block-end: 12px;
+}
+
+/* section two of the main content */
+
+#main_two_container {
+    max-inline-size: 1221px;
+    inline-size: 100%;
+    max-block-size: 706px;
+    block-size: 100%;
+    margin: 0 auto;
+}
+
+#main_two_top_container {
+    max-inline-size: 905px;
+    inline-size: 100%;
+    max-block-size: 140px;
+    block-size: 100%;
+    margin: 0 auto;
+    margin-block-end: 28px;
+}
+
+#main_two_heading_container {
+    margin-block-end: 18px;
+}
+
+#main_two_heading {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+#main_two_content_container {
+    
+}
+
+#main_two_content {
+    color: #535862;
+    line-height: 27px;
+    text-align: center;
+    font-family: Prata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* bottom part of the second section */
+
+#main_bottom_container {
+    max-inline-size: 1221px;
+    inline-size: 100%;
+    block-size: 538px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #F7F4FF;
+}
+
+#contact_info_container {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: blue;
+    max-inline-size: 403px;
+    inline-size: 100%;
+    block-size: 474px;
+    margin-inline-end: 24px;
+    padding: 20px 20px 235px 20px;
+
+}
+
+#contact_info {
+    background-color: #8E26C0;
+    max-inline-size: 363px;
+    inline-size: 100%;
+    block-size: 219px;
+}
+
+#address {
+    background-color: yellow;
+    margin-block-end: 25px;
+}
+
+#email {
+    background-color: brown;
+    margin: ;
+}
+
+#phone {
+    background-color: lime;
+}
+    
+
+
+
+
+
+
